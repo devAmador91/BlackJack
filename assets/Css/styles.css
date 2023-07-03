@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #2F4F30;
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.carta{
+    width: 150px;
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#jugador-usuario, #jugador-computadora{
+height: 300px;
+padding-top: 20px;
+}
+
+h1{
+    margin-left: 25px;
+}
+
+.container-button{
+    text-align: center;
+    padding-top: 20px;
+}
