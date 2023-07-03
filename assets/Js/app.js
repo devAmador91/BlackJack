@@ -126,7 +126,7 @@ import { shuffle } from 'underscore';
         carta = document.createElement("img");
 
 
-    carta.src = `./assets/cartas/${cartaObtenida}.png`;
+    carta.src = `./cartas/${cartaObtenida}.png`;
     carta.classList.add("carta");
 
     //Agregar carta al tablero
