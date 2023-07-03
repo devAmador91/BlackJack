@@ -1,5 +1,7 @@
 //Patron modulo -> Seguridad
 
+import { shuffle } from 'underscore';
+
 (() => {
   "use strict";
   let deck = [];
@@ -31,7 +33,7 @@
       }
     }
 
-    deck = _.shuffle(deck);
+    deck = shuffle(deck);
   };
 
   const inicializarJuego = () =>{
